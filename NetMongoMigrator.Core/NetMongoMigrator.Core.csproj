@@ -4,7 +4,24 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackageId>NetMongoMigrator.Core</PackageId>
+	<Version>0.1.0</Version>
+	<Authors>Piotr Paszko</Authors>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Title>NetMongoMigrator.Core</Title>
+	<RepositoryUrl>https://github.com/piter10p/NetMongoMigrator</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageTags>net mongo migrator migraton</PackageTags>
+	<PackageReadmeFile>readme.md</PackageReadmeFile>
+	<Description>Core component of NetMongoMigrator - MongoDB migration library for .NET</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1" />
