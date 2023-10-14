@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace MongoMigrator.Core
+namespace NetMongoMigrator.Core
 {
     public interface IMigration
     {

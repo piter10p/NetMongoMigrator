@@ -1,4 +1,4 @@
-﻿namespace MongoMigrator.Core.Exceptions
+﻿namespace NetMongoMigrator.Core.Exceptions
 {
     public class MigratorNotConfiguredCorrectlyException : Exception
     {

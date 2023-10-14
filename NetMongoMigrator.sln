@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{6E3B2430-9402-40E6-A122-BA2F49256A7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMongoMigrator.Console.Example", "Examples\NetMongoMigrator.Console.Example\NetMongoMigrator.Console.Example.csproj", "{E177205B-5689-4227-A863-7A293174C507}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMongoMigrator.Core", "NetMongoMigrator.Core\NetMongoMigrator.Core.csproj", "{3F64EB92-907B-4F9F-9EB6-01B8C9291B63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMongoMigrator.Console", "NetMongoMigrator.Console\NetMongoMigrator.Console.csproj", "{8205F02E-CBAA-419C-8F78-668D92D62F28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E177205B-5689-4227-A863-7A293174C507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E177205B-5689-4227-A863-7A293174C507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E177205B-5689-4227-A863-7A293174C507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E177205B-5689-4227-A863-7A293174C507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F64EB92-907B-4F9F-9EB6-01B8C9291B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F64EB92-907B-4F9F-9EB6-01B8C9291B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F64EB92-907B-4F9F-9EB6-01B8C9291B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F64EB92-907B-4F9F-9EB6-01B8C9291B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8205F02E-CBAA-419C-8F78-668D92D62F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8205F02E-CBAA-419C-8F78-668D92D62F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8205F02E-CBAA-419C-8F78-668D92D62F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8205F02E-CBAA-419C-8F78-668D92D62F28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E177205B-5689-4227-A863-7A293174C507} = {6E3B2430-9402-40E6-A122-BA2F49256A7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EABBFD8-6610-417A-902A-419918698B69}
+	EndGlobalSection
+EndGlobal

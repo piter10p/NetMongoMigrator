@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace MongoMigrator.Console
+namespace NetMongoMigrator.Console
 {
     internal static class ConsoleMigratorSettings
     {

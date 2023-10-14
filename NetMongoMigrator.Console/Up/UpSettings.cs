@@ -1,6 +1,6 @@
 ﻿using Spectre.Console.Cli;
 
-namespace MongoMigrator.Console.Up
+namespace NetMongoMigrator.Console.Up
 {
     internal class UpSettings : CommandSettings
     {

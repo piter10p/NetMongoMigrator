@@ -1,7 +1,7 @@
 ﻿using MongoDB.Driver;
-using MongoMigrator.Core.Entities;
+using NetMongoMigrator.Core.Entities;
 
-namespace MongoMigrator.Core
+namespace NetMongoMigrator.Core
 {
     internal static class ExecutedMigrationsGetter
     {

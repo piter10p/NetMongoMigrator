@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace MongoMigrator.Core.Extensions
+namespace NetMongoMigrator.Core.Extensions
 {
     internal static class MongoDatabaseExtensions
     {

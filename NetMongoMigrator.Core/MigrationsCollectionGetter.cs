@@ -1,8 +1,8 @@
 ﻿using MongoDB.Driver;
-using MongoMigrator.Core.Entities;
-using MongoMigrator.Core.Extensions;
+using NetMongoMigrator.Core.Entities;
+using NetMongoMigrator.Core.Extensions;
 
-namespace MongoMigrator.Core
+namespace NetMongoMigrator.Core
 {
     internal static class MigrationsCollectionGetter
     {

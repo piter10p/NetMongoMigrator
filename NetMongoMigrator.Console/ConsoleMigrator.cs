@@ -1,8 +1,8 @@
-﻿using MongoMigrator.Console.Up;
+﻿using NetMongoMigrator.Console.Up;
 using Spectre.Console.Cli;
 using System.Reflection;
 
-namespace MongoMigrator.Console
+namespace NetMongoMigrator.Console
 {
     public class ConsoleMigrator
     {

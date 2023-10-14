@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using MongoMigrator.Core.Exceptions;
+using NetMongoMigrator.Core.Exceptions;
 using System.Reflection;
 
-namespace MongoMigrator.Core
+namespace NetMongoMigrator.Core
 {
     public class MigratorBuilder
     {

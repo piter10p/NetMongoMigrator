@@ -1,7 +1,7 @@
-﻿using MongoMigrator.Core.Exceptions;
+﻿using NetMongoMigrator.Core.Exceptions;
 using System.Reflection;
 
-namespace MongoMigrator.Core
+namespace NetMongoMigrator.Core
 {
     internal static class MigrationsScanner
     {

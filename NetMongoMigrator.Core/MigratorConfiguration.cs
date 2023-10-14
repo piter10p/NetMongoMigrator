@@ -1,4 +1,4 @@
-﻿namespace MongoMigrator.Core
+﻿namespace NetMongoMigrator.Core
 {
     public class MigratorConfiguration
     {

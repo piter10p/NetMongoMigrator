@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
-using MongoMigrator.Core;
+using NetMongoMigrator.Core;
 using Spectre.Console.Cli;
 using System.Diagnostics.CodeAnalysis;
 
-namespace MongoMigrator.Console.Up
+namespace NetMongoMigrator.Console.Up
 {
     internal class UpCommand : Command<UpSettings>
     {

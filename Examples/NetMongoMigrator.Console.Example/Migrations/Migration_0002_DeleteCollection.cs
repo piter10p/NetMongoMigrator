@@ -1,7 +1,7 @@
 ﻿using MongoDB.Driver;
-using MongoMigrator.Core;
+using NetMongoMigrator.Core;
 
-namespace MongoMigrator.Console.Example.Migrations
+namespace NetMongoMigrator.Console.Example.Migrations
 {
     internal class Migration_0002_DeleteCollection : IMigration
     {
