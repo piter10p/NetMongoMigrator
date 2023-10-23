@@ -5,7 +5,7 @@ namespace NetMongoMigrator.Console.Example.Migrations
 {
     internal class Migration_0001_Initial : IMigration
     {
-        public int Id => 0;
+        public int Id => 1;
 
         public async Task Up(IMongoDatabase mongoDatabase)
         {

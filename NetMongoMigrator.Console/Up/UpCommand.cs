@@ -26,10 +26,23 @@ namespace NetMongoMigrator.Console.Up
                 .SetLogger(logger)
                 .Build();
 
-            var migrateTask = migrator.ExecuteMigrations();
+            var version = GetVersion(settings);
+
+            var migrateTask = migrator.ExecuteMigrations(version);
             migrateTask.Wait();
 
             return 0;
+        }
+
+        private static int? GetVersion(UpSettings settings)
+        {
+            if (settings.Version is null)
+                return null;
+
+            if (int.TryParse(settings.Version, out var v))
+                return v;
+
+            throw new ArgumentException("Version is not a number.");
         }
     }
 }

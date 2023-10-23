@@ -66,9 +66,13 @@ You can also scan assembly for migrations:
 
 ⚠️ If you not specify configuration, migrations or logger code will throw `MigratorNotConfiguredCorrectlyException`.
 
-Then run migrator:
+Then run migrator up to latest version:
 
     await migrator.ExecuteMigrations();
+
+Or to specified migration id:
+
+    await migrator.ExecuteMigrations(5);
 
 
 ### II. Using console implementation
@@ -90,9 +94,13 @@ To launch migrator compile your console app and lanuch it:
 
     migratorApp.exe up [connection string] [database name]
 
+You can also migrate to specified migration id:
+
+    migratorApp.exe up [connection string] [database name] -v <migration id>
+
 
 ## Plans for future:
 
-1. Migrating up to specified migration identifier
 1. Migrating down to specified migration identifier
+1. Handling migrations exceptions
 1. NetMongoMigrator.MongoDbDriverExtensions - extensions for `MongoDb.Driver` making migrations easier to implement

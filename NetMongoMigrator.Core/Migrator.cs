@@ -22,7 +22,7 @@ namespace NetMongoMigrator.Core
             _logger = logger;
         }
 
-        public async Task ExecuteMigrations()
+        public async Task ExecuteMigrations(int? migrationId = null)
         {
             _logger.LogInformation("Connectiong to database.");
             var client = new MongoClient(_migratorConfiguration.ConnectionString);
@@ -36,6 +36,9 @@ namespace NetMongoMigrator.Core
             var migrationsToExecute = _migrations.Where(x => !executedMigrations.Contains(x.Id))
                 .OrderBy(x => x.Id)
                 .ToArray();
+
+            if(migrationId is not null)
+                migrationsToExecute = migrationsToExecute.Where(x => x.Id <= migrationId).ToArray();
 
             _logger.LogInformation($"Detected {migrationsToExecute.Length} migrations to execute.");
 
